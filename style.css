@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    background: url(https://wallpapercave.com/wp/wp3082259.png);
+    background-size: cover;
+}
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input {
+    width: 70%;
+    padding: 8px;
+    border-radius: 10px;
+}
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: greenyellow;
+}
+#repositories-list {
+    margin-top: 20px;
+    text-align: center;
+}
+#pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 20px;
+    text-align: center;
+}
+#pagination button {
+    margin: 0 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+
